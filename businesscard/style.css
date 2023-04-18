@@ -1,0 +1,31 @@
+html {
+    font-family: 'sans serif';
+    font-size: 16px;
+    background-color: #F19CBB;
+  }
+  .card {
+    Width:500px;
+    Height:300px;
+    margin:100px auto;
+    background-color:red;
+    border:5px solid black;
+    border-radius:15px;  
+  }
+  .card article{
+    height:200px;
+    background-color:coral;
+  }
+  .card article img{
+    float:right;
+  }
+  .card article P{
+    padding:15px;
+    color:rgba(255,255,255,0.8);
+  }
+  .card header h2{
+    text-align:center;
+  }
+  .card footer P{
+    text-align:center;
+    margin:8px;
+  }
