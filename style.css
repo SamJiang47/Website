@@ -44,18 +44,14 @@ body{
     word-spacing: 2px;
     color: #BC52FF;
  }
- .github{
+ img{
     height: 60px;
     width: 60px;
- }
- .instagram{
-   height: 60px;
-   width: 60px;
  }
   a:hover{
   background-color: #FF00FF;
 }
-  .spaceX{
+  img.spaceX{
    height: 108px;
    width: 192px;
   }
@@ -65,7 +61,7 @@ body{
    letter-spacing: 1px;
    word-spacing: 2px;
 }
-  .startrek{
+ img.startrek{
    height: 108px;
    width: 192px;
 }
