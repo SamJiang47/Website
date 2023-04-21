@@ -44,12 +44,11 @@ body{
     width: 60px;
  }
  .icons{
-   width: 60px;
-   height: 60px;
+   width: 30px;
+   height: 30px;
    background-color: whitesmoke;
-   border: 60.5px solid black;
+   border: px solid black;
    border-radius: 10px;
-   cursor: pointer;
  }
  .icons:hover{
   background-color: #FF00FF;
