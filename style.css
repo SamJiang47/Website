@@ -43,7 +43,7 @@ body{
     height: 60px;
     width: 60px;
  }
- a:hover {
+ .icons:hover{
   background-color: #FF00FF;
 }
 
