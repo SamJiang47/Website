@@ -54,6 +54,7 @@ body{
  .mainheader{
    display: flex;
    align-items: center;
+   right: 20%;
 }
 
  
