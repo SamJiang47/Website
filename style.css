@@ -44,13 +44,26 @@ body{
     word-spacing: 2px;
     color: #BC52FF;
  }
- img{
+ .icons img{
     height: 60px;
     width: 60px;
  }
   a:hover{
   background-color: #FF00FF;
 }
-
+  .SpaceX img{
+   height: 192px;
+   width: 108px;
+  }
+  h4{
+   font-family: "Arial Black", Gadget, sans-serif;
+   font-size: 18px;
+   letter-spacing: 1px;
+   word-spacing: 2px;
+  }
+  .StarTrek img{
+   height: 192px;
+   width: 108px;
+  }
 
  
