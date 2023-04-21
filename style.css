@@ -31,7 +31,7 @@ body{
  p{
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 16px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     word-spacing: 2px;
     color: #212C3C;
     font-weight: normal;
@@ -39,4 +39,16 @@ body{
     font-style:normal;
     font-variant:normal;
     text-transform:none;
+ }
+ dd{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #FFDB1A;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
  }
