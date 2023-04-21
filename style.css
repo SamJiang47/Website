@@ -5,16 +5,17 @@ body{
     background: linear-gradient(to right, #91CCCA 0%, #7CB9E8 50%, #7585E8 100%);
 }
  main{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
- }
+      display: flex;
+      flex-direction: column;
+      align-items: center
+     }
  h1{
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #BC52FF;
+    display: flex;
  }
  h2{
     font-family: "Arial Black", Gadget, sans-serif;
@@ -22,6 +23,7 @@ body{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #BC52FF;
+    display: flex;
  }
  p{
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -29,6 +31,7 @@ body{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #212C3C;
+    display: flex;
  }
  dd{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -36,6 +39,7 @@ body{
     letter-spacing: 1px;
     word-spacing: 1px;
     color: #10FF6A;
+    display: flex;
  }
  h3{
     font-family: "Arial Black", Gadget, sans-serif;
@@ -43,6 +47,7 @@ body{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #BC52FF;
+    display: flex;
   }
  a:hover{
          background-color: #FF00FF;
@@ -53,3 +58,8 @@ body{
    letter-spacing: 1px;
    word-spacing: 2px;
  }
+ .mainheader1{
+              position:relative;
+              top:0px;
+              left:135px;
+             }
