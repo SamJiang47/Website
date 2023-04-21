@@ -44,26 +44,23 @@ body{
     word-spacing: 2px;
     color: #BC52FF;
   }
- img{
-     height: 60px;
-     width: 60px;
-    }
+ img.github,
+ img.instagram{
+                height: 60px;
+                width: 60px;
+              }
  a:hover{
-          background-color: #FF00FF;
-         }
- img.spaceX{
-             height: 108px;
-             width: 192px;
-           }
- h4{
-      font-family: "Arial Black", Gadget, sans-serif;
-      font-size: 18px;
-      letter-spacing: 1px;
-      word-spacing: 2px;
-    }
+         background-color: #FF00FF;
+        }
+ img.spaceX,
  img.startrek{
               height: 108px;
               width: 192px;
              }
-
+ h4{
+     font-family: "Arial Black", Gadget, sans-serif;
+     font-size: 18px;
+     letter-spacing: 1px;
+     word-spacing: 2px;
+    }
  
