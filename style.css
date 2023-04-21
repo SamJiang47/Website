@@ -44,14 +44,14 @@ body{
     word-spacing: 2px;
     color: #BC52FF;
  }
- .icons img{
+ .icons{
     height: 60px;
     width: 60px;
  }
   a:hover{
   background-color: #FF00FF;
 }
-  .SpaceX img{
+  .SpaceX{
    height: 192px;
    width: 108px;
   }
@@ -61,7 +61,7 @@ body{
    letter-spacing: 1px;
    word-spacing: 2px;
   }
-  .StarTrek img{
+  .StarTrek{
    height: 192px;
    width: 108px;
   }
