@@ -24,9 +24,6 @@ body{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #212C3C;
-    column-count: 1;
-    column-width: 220px;
-    column-gap: 20px;
  }
  dd{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
