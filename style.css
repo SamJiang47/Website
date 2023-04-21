@@ -10,6 +10,10 @@ body{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #BC52FF;
+    position: fixed;
+    top: 0;
+    width: 400px;
+    margin-top: 0;
  }
  h2{
     font-family: "Arial Black", Gadget, sans-serif;
