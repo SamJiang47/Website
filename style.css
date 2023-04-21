@@ -43,15 +43,14 @@ body{
     height: 60px;
     width: 60px;
  }
-a,
+a{
+  color: #10FF6A;
+}
 a:link,
 a:visited,
 a:focus,
 a:hover {
-   background: gray;
+   color: gray;
 }
-a:active {
-   background: red;
-   color: white;
-}
+
  
