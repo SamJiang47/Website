@@ -43,3 +43,7 @@ body{
     height: 60px;
     width: 60px;
  }
+ .container{
+    column-width: 200px;
+    column-gap: 20px;
+ }
