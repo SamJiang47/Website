@@ -10,11 +10,6 @@ body{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #BC52FF;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
  }
  h2{
     font-family: "Arial Black", Gadget, sans-serif;
@@ -22,11 +17,6 @@ body{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #BC52FF;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
  }
  p{
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -34,11 +24,6 @@ body{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #212C3C;
-    font-weight: normal;
-    text-decoration:none;
-    font-style:normal;
-    font-variant:normal;
-    text-transform:none;
  }
  dd{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
