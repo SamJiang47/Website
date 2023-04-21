@@ -43,5 +43,15 @@ body{
     height: 60px;
     width: 60px;
  }
- 
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover {
+   background: gray;
+}
+a:active {
+   background: red;
+   color: white;
+}
  
