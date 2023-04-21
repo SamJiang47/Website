@@ -4,7 +4,7 @@ body{
     background: -webkit-linear-gradient(left, #91CCCA 0%, #7CB9E8 50%, #7585E8 100%);
     background: linear-gradient(to right, #91CCCA 0%, #7CB9E8 50%, #7585E8 100%);
 }
-h1{
+ h1{
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
@@ -27,4 +27,16 @@ h1{
     font-style: normal;
     font-variant: normal;
     text-transform: none;
+ }
+ p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #212C3C;
+    font-weight: normal;
+    text-decoration:none;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
  }
