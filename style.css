@@ -43,12 +43,6 @@ body{
     height: 60px;
     width: 60px;
  }
-a{
-  color: #10FF6A;
-}
-a:link,
-a:visited,
-a:focus,
 a:hover {
   color: #212C3C;
 }
