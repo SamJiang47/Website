@@ -39,3 +39,7 @@ body{
     word-spacing: 2px;
     color: #BC52FF;
  }
+ img{
+    height: 100px;
+    width: 100px;
+ }
