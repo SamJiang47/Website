@@ -43,12 +43,7 @@ body{
     height: 60px;
     width: 60px;
  }
-a{
-  cursor: pointer;
-  border: 60px;
-  border-radius: 30px;
-}
-a:hover {
+ a:hover {
   color: #090c11;
 }
 
