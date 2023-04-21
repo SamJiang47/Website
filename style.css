@@ -44,9 +44,13 @@ body{
     word-spacing: 2px;
     color: #BC52FF;
  }
- .icons{
+ .github{
     height: 60px;
     width: 60px;
+ }
+ .instagram{
+   height: 60px;
+   width: 60px;
  }
   a:hover{
   background-color: #FF00FF;
