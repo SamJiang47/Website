@@ -58,10 +58,10 @@ body{
    letter-spacing: 1px;
    word-spacing: 2px;
  }
- .mainheader1{
+ .mainheader1 h1{
               position:relative;
               top:0px;
-              left:135px;
+              left:267px;
              }
  .mainheader2 h2{
                  position:relative;
