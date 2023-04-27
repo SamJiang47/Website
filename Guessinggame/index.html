@@ -36,39 +36,39 @@
       <p class="lowOrHi"></p>
     </div>
     <script>
-         Let randomNumber = Math.floor(Math.random() * 100) + 1;
-         Let guesses = document.querySelector('.guesses');
-         Let lastResult = document.querySelector('.lastResult');
-         Let lowOrHi = document.querySelector('.lowOrHi');
-         Let guessSubmit = document.querySelector('.guessSubmit');
-         Let guessField = document.querySelector('.guessField');
-         Let guessCount = 1;
-         Let resetButton;
+         let randomNumber = Math.floor(Math.random() * 100) + 1;
+         let guesses = document.querySelector('.guesses');
+         let lastResult = document.querySelector('.lastResult');
+         let lowOrHi = document.querySelector('.lowOrHi');
+         let guessSubmit = document.querySelector('.guessSubmit');
+         let guessField = document.querySelector('.guessField');
+         let guessCount = 1;
+         let resetButton;
          function checkGuess() {}
-         Let userGuess = Number(guessField.value);
-         If (guessCount === 1) {
-                                guesses.textContent = 'Previous guesses: ';
-                               }
+         let userGuess = Number(guessField.value);
+         If (guessCount === 1){
+                                guesses.textContent = 'Previous guesses:';
+                              }
          guesses.textContent += userGuess + ' ';
          If (userGuess === randomNumber) {
-                                         lastResult.textContent = 'Congratulations! You got it right!';
-                                         lastResult.style.backgroundColor = 'green';
-                                         lowOrHi.textContent = '';
-                                         setGameOver();
-                                        }
-         Else if (guessCount === 10) {
+                                          lastResult.textContent = 'Congratulations! You got it right!';
+                                          lastResult.style.backgroundColor = 'green';
+                                          lowOrHi.textContent = '';
+                                          setGameOver();
+                                         }
+         else if (guessCount === 10) {
                                       lastResult.textContent = '!!!GAME OVER!!!';
                                       lowOrHi.textContent = '';
                                       setGameOver();
                                      }
-         Else {
+         else {
                lastResult.textContent = 'Wrong!';
                lastResult.style.backgroundColor = 'red';
               }
         if(userGuess < randomNumber) {
                                       lowOrHi.textContent = 'Last guess was too low!';
                                      }
-        Else if (userGuess > randomNumber){
+        else if (userGuess > randomNumber){
                                            lowOrHi.textContent = 'Last guess was too high!';
                                           }
         guessCount++;
