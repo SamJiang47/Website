@@ -44,13 +44,14 @@
          let guessField = document.querySelector('.guessField');
          let guessCount = 1;
          let resetButton;
+         guessSubmit.addEventListener('click', checkGuess);
          function checkGuess() {
                                 let userGuess = Number(guessField.value);
-                                If (guessCount === 1) {
+                                if (guessCount === 1) {
                                                        guesses.textContent = 'Previous guesses:';
                                                       }
                                 guesses.textContent += userGuess + ' ';
-                                If (userGuess === randomNumber) {
+                                if (userGuess === randomNumber) {
                                                                  lastResult.textContent = 'Congratulations! You got it right!';
                                                                  lastResult.style.backgroundColor = 'green';
                                                                  lowOrHi.textContent = '';
@@ -62,7 +63,7 @@
                                                              setGameOver();
                                                             }
                                 else {
-                                      lastResult.textContent = 'Wrong!';
+                                      lastResult.textContent += 'Wrong!';
                                       lastResult.style.backgroundColor = 'red';
                                      }
                                 if(userGuess < randomNumber) {
@@ -97,7 +98,6 @@
                               lastResult.style.backgroundColor = 'white';
                               randomNumber = Math.floor(Math.random() * 100) + 1;
                              }
-
     </script>
   </body>
 </html>
