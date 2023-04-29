@@ -23,10 +23,10 @@ function result() {
                                                              }
                    story.textContent = newStory;
                    story.style.visibility = 'visible';
-                   newStory=storyText;
-                   xItem=randomValueFromArray(insertX);
-                   yItem=randomValueFromArray(insertY);
-                   zItem=randomValueFromArray(insertZ);
+                   const newStory= storyText;
+                   const xItem=randomValueFromArray(insertX);
+                   const yItem=randomValueFromArray(insertY);
+                   const zItem=randomValueFromArray(insertZ);
                    newStory = newStory.replaceAll(':insertX:',xItem);
                    newStory = newStory.replaceAll(':insertY:',yItem);
                    newStory = newStory.replaceAll(':insertZ:',zItem);
