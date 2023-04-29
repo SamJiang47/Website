@@ -14,6 +14,7 @@ input[type="text"] {
                     width: 150px;
                    }
 p {
+   font-family: "Arial Black", Gadget, sans-serif;
    background: #FFC125;
    color: #5E2612;
    padding: 10px;
