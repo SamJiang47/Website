@@ -1,4 +1,8 @@
 body {
+      background: #686D6F;
+      background: -moz-linear-gradient(45deg, #686D6F 0%, #3C0C35 50%, #E20A0A 100%);
+      background: -webkit-linear-gradient(45deg, #686D6F 0%, #3C0C35 50%, #E20A0A 100%);
+      background: linear-gradient(45deg, #686D6F 0%, #3C0C35 50%, #E20A0A 100%);
       font-family: helvetica, sans-serif;
       width: 350px;
      }
