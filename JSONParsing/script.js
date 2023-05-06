@@ -37,4 +37,4 @@ const data = {
   console.log('City:',data.address.city);
   console.log('State:',data.address.state);
   console.log('Zip:',data.address.zip);
-  console.log('Degree:',data.education[2].degree);
+  console.log('Degree:',data.education[1].degree);
