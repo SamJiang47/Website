@@ -33,8 +33,8 @@ const data = {
   console.log('Email:',data.email);
   console.log('Home Phone:',data.phone.home);
   console.log('Work Phone:',data.phone.work);
-  console.log('Street:',data.address.street);
+  console.log('Street Address:',data.address.street);
   console.log('City:',data.address.city);
   console.log('State:',data.address.state);
-  console.log('Zip:',data.address.zip);
+  console.log('Zip Code:',data.address.zip);
   console.log('Degree:',data.education[1].degree);
