@@ -30,6 +30,11 @@ const data = {
   console.log(data)
   console.log('Name:', data.name);
   console.log('Age:',data.age);
-  console.log('Phone:',data.phone);
-  console.log('Address:',data.address);
-  console.log('Education:',data.education);
+  console.log('Email:',data.email);
+  console.log('Home Phone:',data.phone.home);
+  console.log('Work Phone:',data.phone.work);
+  console.log('Street:',data.address.street);
+  console.log('City:',data.address.city);
+  console.log('State:',data.address.state);
+  console.log('Zip:',data.address.zip);
+  console.log('Degree:',data.education[2].degree);
